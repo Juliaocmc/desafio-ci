@@ -25,6 +25,22 @@ describe('Math class', () => {
         test('should divide two numbers correctly', () => {
             expect(math.divide(6, 3)).toBe(2);
         });
+
+        test('should power two numbers correctly', () => {
+            expect(math.power(2, 3)).toBe(8);
+        });
+
+        test('should square root a number correctly', () => {
+            expect(math.squareRoot(4)).toBe(2);
+        });
+
+        test('should return true if a number is even', () => {
+            expect(math.isEven(2)).toBe(true);
+        });
+
+        test('should return false if a number is odd', () => {
+            expect(math.isOdd(2)).toBe(false);
+        });
     })
 });
 

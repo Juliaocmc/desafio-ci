@@ -23,25 +23,12 @@ export class Math {
     squareRoot(a: number) {
         return a ** 0.5
     }
-
-    squareRoot2(a: number) {
-        return a ** 0.5
+    isEven(a: number) {
+        return a % 2 === 0
     }
 
-    squareRoot3(a: number) {
-        return a ** 0.5
-    }
-
-    squareRoot4(a: number) {
-        return a ** 0.5
-    }
-
-    squareRoot5(a: number) {
-        return a ** 0.5
-    }
-
-    squareRoot6(a: number) {
-        return a ** 0.5
+    isOdd(a: number) {
+        return a % 2 !== 0
     }
 }
 
