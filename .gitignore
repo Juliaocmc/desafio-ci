@@ -4,3 +4,4 @@ coverage/
 *.spec.ts
 .env
 *.log
+.idea
