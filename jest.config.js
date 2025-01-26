@@ -1,6 +1,7 @@
 module.exports = {
   collectCoverage: true,
-  coverageReporters: ['lcov', 'text-summary'],
+  coverageDirectory: "coverage",
+  coverageReporters: ["lcov", "text"],
   preset: 'ts-jest',
   testEnvironment: 'node',
   testMatch: ['**/?(*.)+(spec|test).ts?(x)'],
