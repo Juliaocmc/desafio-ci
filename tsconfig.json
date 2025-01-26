@@ -1,7 +1,7 @@
 {
   "include": [
     "src/**/*.ts",
-    "__tests__/**/*.ts"
+    "tests/**/*.ts"
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
