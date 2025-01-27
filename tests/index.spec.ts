@@ -28,5 +28,13 @@ describe('Math class', () => {
         expect(math.power(2, 3)).toBe(8);
     });
 
+    it('should squareRoot a number correctly', () => {
+        expect(math.squareRoot(4)).toBe(2);
+    });
+
+    it('should check if a number is even', () => {
+        expect(math.isEven(4)).toBe(true);
+    });
+
 });
 
