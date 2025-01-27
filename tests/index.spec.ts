@@ -1,4 +1,4 @@
-import {Math} from '../src';
+import {Math} from '../src/index';
 import { describe, beforeEach, expect, it } from '@jest/globals';
 
 describe('Math class', () => {
